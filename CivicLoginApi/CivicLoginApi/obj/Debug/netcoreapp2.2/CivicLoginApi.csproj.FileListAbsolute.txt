@@ -1,0 +1,9 @@
+C:\Users\lluffy\source\repos\CivicLoginApi\CivicLoginApi\bin\Debug\netcoreapp2.2\CivicLoginApi.deps.json
+C:\Users\lluffy\source\repos\CivicLoginApi\CivicLoginApi\bin\Debug\netcoreapp2.2\CivicLoginApi.dll
+C:\Users\lluffy\source\repos\CivicLoginApi\CivicLoginApi\obj\Debug\netcoreapp2.2\CivicLoginApi.csproj.CoreCompileInputs.cache
+C:\Users\lluffy\source\repos\CivicLoginApi\CivicLoginApi\obj\Debug\netcoreapp2.2\CivicLoginApi.AssemblyInfoInputs.cache
+C:\Users\lluffy\source\repos\CivicLoginApi\CivicLoginApi\obj\Debug\netcoreapp2.2\CivicLoginApi.AssemblyInfo.cs
+C:\Users\lluffy\source\repos\CivicLoginApi\CivicLoginApi\obj\Debug\netcoreapp2.2\CivicLoginApi.csprojAssemblyReference.cache
+C:\Users\lluffy\source\repos\CivicLoginApi\CivicLoginApi\bin\Debug\netcoreapp2.2\CivicLoginApi.pdb
+C:\Users\lluffy\source\repos\CivicLoginApi\CivicLoginApi\obj\Debug\netcoreapp2.2\CivicLoginApi.dll
+C:\Users\lluffy\source\repos\CivicLoginApi\CivicLoginApi\obj\Debug\netcoreapp2.2\CivicLoginApi.pdb
