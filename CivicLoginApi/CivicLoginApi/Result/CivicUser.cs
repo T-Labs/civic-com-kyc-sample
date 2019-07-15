@@ -17,10 +17,5 @@ namespace CivicLoginApi.Result
         [JsonProperty ("isValid")]
         public bool IsValid { get; set; }
     }
-    public class CivicUserData
-    { 
-        public List<CivicUser> Data { get; set; }
-
-        
-    }
+   
 }

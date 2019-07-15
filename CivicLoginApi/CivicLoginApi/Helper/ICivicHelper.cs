@@ -7,6 +7,6 @@ namespace CivicLoginApi.Helper
 {
     public interface ICivicHelper
     {
-        Result<CivicUserData> ExchangeCodeAsync(string jwt);
+        Result<List<CivicUser>> ExchangeCodeAsync(string jwt);
     }
 }

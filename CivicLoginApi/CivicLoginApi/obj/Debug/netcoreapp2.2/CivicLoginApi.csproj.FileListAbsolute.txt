@@ -7,3 +7,12 @@ C:\Users\lluffy\source\repos\CivicLoginApi\CivicLoginApi\obj\Debug\netcoreapp2.2
 C:\Users\lluffy\source\repos\CivicLoginApi\CivicLoginApi\bin\Debug\netcoreapp2.2\CivicLoginApi.pdb
 C:\Users\lluffy\source\repos\CivicLoginApi\CivicLoginApi\obj\Debug\netcoreapp2.2\CivicLoginApi.dll
 C:\Users\lluffy\source\repos\CivicLoginApi\CivicLoginApi\obj\Debug\netcoreapp2.2\CivicLoginApi.pdb
+G:\Work\Civic Kys\CivicLoginApi\CivicLoginApi\obj\Debug\netcoreapp2.2\CivicLoginApi.csprojAssemblyReference.cache
+G:\Work\Civic Kys\CivicLoginApi\CivicLoginApi\obj\Debug\netcoreapp2.2\CivicLoginApi.csproj.CoreCompileInputs.cache
+G:\Work\Civic Kys\CivicLoginApi\CivicLoginApi\obj\Debug\netcoreapp2.2\CivicLoginApi.AssemblyInfoInputs.cache
+G:\Work\Civic Kys\CivicLoginApi\CivicLoginApi\obj\Debug\netcoreapp2.2\CivicLoginApi.AssemblyInfo.cs
+G:\Work\Civic Kys\CivicLoginApi\CivicLoginApi\obj\Debug\netcoreapp2.2\CivicLoginApi.dll
+G:\Work\Civic Kys\CivicLoginApi\CivicLoginApi\obj\Debug\netcoreapp2.2\CivicLoginApi.pdb
+G:\Work\Civic Kys\CivicLoginApi\CivicLoginApi\bin\Debug\netcoreapp2.2\CivicLoginApi.deps.json
+G:\Work\Civic Kys\CivicLoginApi\CivicLoginApi\bin\Debug\netcoreapp2.2\CivicLoginApi.dll
+G:\Work\Civic Kys\CivicLoginApi\CivicLoginApi\bin\Debug\netcoreapp2.2\CivicLoginApi.pdb

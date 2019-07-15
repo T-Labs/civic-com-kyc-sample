@@ -25,7 +25,7 @@ namespace CivicLoginApi.Helper
             _appSecret = appSecret;
         }
 
-        public Result<CivicUserData> ExchangeCodeAsync(string jwt)
+        public Result<List<CivicUser>> ExchangeCodeAsync(string jwt)
         {
             var body = CreateBody(jwt);
             var header = CreateHeader(body);
@@ -48,7 +48,7 @@ namespace CivicLoginApi.Helper
             var response = client.Execute<Response>(request);
             if (!response.IsSuccessful)
             {
-                return Result<CivicUserData>.Error(response.ErrorMessage + ", this happens when a token has already been used.");
+                return Result<List<CivicUser>>.Error(response.ErrorMessage + ", this happens when a token has already been used.");
             }
 
             var jwtClient = new RestClient(response.Data.Data);
@@ -56,7 +56,7 @@ namespace CivicLoginApi.Helper
             var jwtResult = jwtClient.Execute(jwtRequest);
             if (!jwtResult.IsSuccessful)
             {
-                return Result<CivicUserData>.Error(jwtResult.ErrorMessage);
+                return Result<List<CivicUser>>.Error(jwtResult.ErrorMessage);
             }
 
             //Console.WriteLine(jwtResult.Content);
@@ -65,7 +65,7 @@ namespace CivicLoginApi.Helper
             var payload = DecodePayload(jwtResult.Content);
             if (!payload.IsSuccess)
             {
-                return Result<CivicUserData>.Error(payload.Message);
+                return Result<List<CivicUser>>.Error(payload.Message);
             }
 
 
@@ -73,12 +73,12 @@ namespace CivicLoginApi.Helper
             var decrypted = Decrypt(payload.Data.data);
             if (!decrypted.IsSuccess)
             {
-                return Result<CivicUserData>.Error(decrypted.Message);
+                return Result<List<CivicUser>>.Error(decrypted.Message);
             }
 
             //deserialize into final result
-            var attributes = JsonConvert.DeserializeObject<CivicUserData>(decrypted.Data);
-            return Result<CivicUserData>.Success(attributes);
+            var attributes = JsonConvert.DeserializeObject<List<CivicUser>>(decrypted.Data);
+            return Result<List<CivicUser>>.Success(attributes);
         }
 
         internal static string CreateBody(string jwt)
@@ -203,3 +203,4 @@ namespace CivicLoginApi.Helper
         }
     }
 }
+

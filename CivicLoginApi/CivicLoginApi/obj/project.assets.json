@@ -3511,11 +3511,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lluffy\\source\\repos\\CivicLoginApi\\CivicLoginApi\\CivicLoginApi.csproj",
+      "projectUniqueName": "G:\\Work\\Civic Kys\\CivicLoginApi\\CivicLoginApi\\CivicLoginApi.csproj",
       "projectName": "CivicLoginApi",
-      "projectPath": "C:\\Users\\lluffy\\source\\repos\\CivicLoginApi\\CivicLoginApi\\CivicLoginApi.csproj",
+      "projectPath": "G:\\Work\\Civic Kys\\CivicLoginApi\\CivicLoginApi\\CivicLoginApi.csproj",
       "packagesPath": "C:\\Users\\lluffy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lluffy\\source\\repos\\CivicLoginApi\\CivicLoginApi\\obj\\",
+      "outputPath": "G:\\Work\\Civic Kys\\CivicLoginApi\\CivicLoginApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
